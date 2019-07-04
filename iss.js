@@ -18,7 +18,7 @@ const fetchMyIP = function(callback) {
       callback(resp.ststusCode, null);
       return;
     } else {
-      callback(null, ip);
+      callback(null, ip.ip);
     }
   });
 };
